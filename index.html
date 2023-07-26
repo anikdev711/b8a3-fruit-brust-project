@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/46b856f425.js" crossorigin="anonymous"></script>
     <style>
         .font-lato{
             font-family: 'Lato', sans-serif;
@@ -26,10 +27,36 @@
         }
       </script>
 </head>
-<body>
+<body class="font-lato">
     <!-- header section starts -->
-    <header>
-
+    <header class="mr-10 ml-10 mt-10">
+        <!-- nav section starts  -->
+        <div class="navbar p-4 lg:bg-[#F85559]  rounded-full">
+            <div class="navbar-start text-white text-lg font-medium hidden flex-none lg:flex">
+              <ul class="menu menu-horizontal">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+            <div class="text-black md:text-black lg:text-white text-4xl font-bold flex flex-row gap-2 navbar-start md:navbar-start lg:navbar-center ">
+                <img src="images/logo.png" />
+                <h3>Fruit Burst</h3>
+            </div>
+            <div class="navbar-end hidden lg:flex lg:flex-row pr-4">
+                <div class="form-control relative">
+                    <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto text-white text-base font-normal" />
+                </div>
+                <button class="absolute pr-4"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-none navbar-end lg:hidden">
+                <button class="btn btn-square btn-ghost">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+              </div>
+          </div>
+        <!-- nav section ends  -->
     </header>
     <!-- header section ends -->
     <!-- body section starts  -->
